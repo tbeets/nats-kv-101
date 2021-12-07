@@ -17,6 +17,10 @@ Basic kick the tires on NATS Key-Value API (Go)
 ```
 # API Notes
 
+```go
+kv, err := js.KeyValue("bucket name")
+```
+
 | Type | Methods |
 | --- | --- |
 | KeyValue | Bucket, Delete, Create, Update, Put, Get, Status, History, Keys, Purge, PurgeAll, Watch, WatchAll | 
